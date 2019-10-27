@@ -12,7 +12,7 @@ int main(){
 
     if(sayi <= 0){
 	    while(sayi <= 0){
-	    	printf("Sayi sifirdan kucuk olamaz! Lutfen sifirdan buyuk bir sayi giriniz: ");
+	    	printf("Sayi sifirdan kucuk olamaz! Lutfen sifirdan buyuk bir sayi giriniz: \n");
 	    	scanf("%d", &sayi);
 	    }
 	    //TO DO: Tekrar tekrar kontrol edilmesindense while döngüsüne alınabilir...
@@ -55,7 +55,7 @@ int main(){
  
     else{
         	printf("pid %d \n", pid);
-        	printf("Child process bekleniyor.\n");
+        	printf("Child process'in bitmesi bekleniyor.\n");
         	wait(&status);
     }
     
